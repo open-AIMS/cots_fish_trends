@@ -1,0 +1,17 @@
+# download noaaErddap from GitHub dbarneche/noaaErddap
+# download gisaimsr from GitHub open-AIMS/gisaimsr
+library(drake)
+library(readxl)
+library(plyr)
+library(tidyverse)
+library(brms)
+library(DHARMa)
+library(emmeans)
+library(Hmisc)
+library(grid)
+library(gridExtra)
+library(RColorBrewer)
+library(png)
+library(patchwork)
+rstan::rstan_options(auto_write = TRUE)
+options(mc.cores = parallel::detectCores())

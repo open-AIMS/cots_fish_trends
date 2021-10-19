@@ -1,0 +1,15 @@
+.drake/
+pdfs/
+output/
+ignore/
+doc/
+
+.DS_Store
+*.Rapp.history
+*.Rhistory
+*.RData
+*tmp*
+TODO.*md
+
+data/CoTS*
+!data/ltmp*
